@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg-pray" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090B0E"/>
+      <stop offset="50%" stop-color="#141820"/>
+      <stop offset="100%" stop-color="#06080B"/>
+    </linearGradient>
+    <radialGradient id="glow-pray" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EAB308" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg-pray)"/>
+  <circle cx="300" cy="200" r="220" fill="url(#glow-pray)"/>
+
+  <rect x="20" y="20" width="560" height="360" rx="16" fill="none" stroke="#EAB308" stroke-opacity="0.3" stroke-width="2"/>
+
+  <rect x="180" y="32" width="240" height="26" rx="13" fill="#713F12" stroke="#EAB308" stroke-opacity="0.6"/>
+  <text x="300" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#FEF08A" text-anchor="middle" letter-spacing="2">
+    BLACK &amp; GREY REALISM
+  </text>
+
+  <text x="300" y="98" font-family="Georgia, serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+    Praying Hands &amp; Rosary
+  </text>
+  <text x="300" y="122" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#94A3B8" text-anchor="middle">
+    Albrecht Dürer Renaissance Tribute
+  </text>
+
+  <!-- Praying Hands & Rosary Graphic -->
+  <g transform="translate(300, 240)">
+    <!-- Rays of Light -->
+    <path d="M -120 -100 L 0 0 L 120 -100" stroke="#FEF08A" stroke-width="1" opacity="0.3"/>
+    <path d="M -80 -120 L 0 0 L 80 -120" stroke="#FEF08A" stroke-width="1" opacity="0.3"/>
+
+    <!-- Left Praying Hand Silhouette -->
+    <path d="M -5 40 Q -30 20 -40 -30 Q -25 -80 0 -100 C 0 -100 -5 -30 -5 40 Z" fill="#D97706" opacity="0.8" stroke="#FEF08A" stroke-width="1.5"/>
+    <!-- Right Praying Hand Silhouette -->
+    <path d="M 5 40 Q 30 20 40 -30 Q 25 -80 0 -100 C 0 -100 5 -30 5 40 Z" fill="#B45309" opacity="0.9" stroke="#FEF08A" stroke-width="1.5"/>
+
+    <!-- Rosary Beads Draped -->
+    <path d="M -25 -10 Q 0 40 25 -10" fill="none" stroke="#F59E0B" stroke-width="3" stroke-dasharray="4 4"/>
+    <!-- Rosary Cross Pendant -->
+    <path d="M 0 30 L 0 70 M -12 45 L 12 45" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="300" y="372" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle" letter-spacing="2">
+    TATTOO FONTLAB • FAMOUS DESIGNS ARCHIVE
+  </text>
+</svg>

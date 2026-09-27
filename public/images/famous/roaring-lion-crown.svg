@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg-lion" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0906"/>
+      <stop offset="50%" stop-color="#1F1A10"/>
+      <stop offset="100%" stop-color="#080604"/>
+    </linearGradient>
+    <radialGradient id="glow-lion" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#EAB308" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg-lion)"/>
+  <circle cx="300" cy="200" r="230" fill="url(#glow-lion)"/>
+
+  <rect x="20" y="20" width="560" height="360" rx="16" fill="none" stroke="#EAB308" stroke-opacity="0.3" stroke-width="2"/>
+
+  <rect x="180" y="32" width="240" height="26" rx="13" fill="#713F12" stroke="#EAB308" stroke-opacity="0.6"/>
+  <text x="300" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#FEF08A" text-anchor="middle" letter-spacing="2">
+    BLACK &amp; GREY REALISM
+  </text>
+
+  <text x="300" y="98" font-family="Georgia, serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+    Roaring Lion &amp; Royal Crown
+  </text>
+  <text x="300" y="122" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#94A3B8" text-anchor="middle">
+    Courage, Royalty &amp; Pride Protection Motif
+  </text>
+
+  <!-- Roaring Lion Graphic -->
+  <g transform="translate(300, 240)">
+    <!-- Crown Silhouette -->
+    <path d="M -40 -110 L -25 -80 L 0 -105 L 25 -80 L 40 -110 L 45 -65 L -45 -65 Z" fill="#EAB308" stroke="#FEF08A" stroke-width="1.5"/>
+    <circle cx="0" cy="-105" r="4" fill="#EF4444"/>
+    <circle cx="-40" cy="-110" r="3" fill="#3B82F6"/>
+    <circle cx="40" cy="-110" r="3" fill="#3B82F6"/>
+
+    <!-- Lion Mane Outer Fur -->
+    <path d="M 0 -60 C -90 -40 -80 40 -40 70 C 0 90 40 70 80 40 C 90 -40 0 -60 0 -60 Z" fill="#27272A" stroke="#EAB308" stroke-width="1.5"/>
+
+    <!-- Lion Snarl Jaw -->
+    <circle cx="0" cy="15" r="22" fill="#713F12"/>
+    <path d="M -12 8 L 0 -5 L 12 8 Z" fill="#FFFFFF"/>
+    <path d="M -12 22 L 0 35 L 12 22 Z" fill="#FFFFFF"/>
+
+    <!-- Intense Eyes -->
+    <ellipse cx="-20" cy="-15" rx="6" ry="4" fill="#FEF08A"/>
+    <ellipse cx="20" cy="-15" rx="6" ry="4" fill="#FEF08A"/>
+    <circle cx="-20" cy="-15" r="2" fill="#000000"/>
+    <circle cx="20" cy="-15" r="2" fill="#000000"/>
+  </g>
+
+  <text x="300" y="372" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle" letter-spacing="2">
+    TATTOO FONTLAB • FAMOUS DESIGNS ARCHIVE
+  </text>
+</svg>

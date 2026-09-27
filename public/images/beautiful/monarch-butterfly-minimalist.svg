@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg-butt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0910"/>
+      <stop offset="50%" stop-color="#1A1324"/>
+      <stop offset="100%" stop-color="#09070D"/>
+    </linearGradient>
+    <radialGradient id="glow-butt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bg-butt)"/>
+  <circle cx="300" cy="200" r="220" fill="url(#glow-butt)"/>
+
+  <rect x="20" y="20" width="560" height="360" rx="16" fill="none" stroke="#C084FC" stroke-opacity="0.3" stroke-width="2"/>
+
+  <rect x="180" y="32" width="240" height="26" rx="13" fill="#581C87" stroke="#C084FC" stroke-opacity="0.6"/>
+  <text x="300" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#F3E8FF" text-anchor="middle" letter-spacing="2">
+    MINIMALIST WRIST ARTWORK
+  </text>
+
+  <text x="300" y="98" font-family="Georgia, serif" font-size="26" font-weight="900" fill="#FFFFFF" text-anchor="middle">
+    Monarch Butterfly
+  </text>
+  <text x="300" y="122" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#94A3B8" text-anchor="middle">
+    Transformation &amp; Rebirth Symbol
+  </text>
+
+  <!-- Butterfly Graphic -->
+  <g transform="translate(300, 230)">
+    <!-- Antennae -->
+    <path d="M -2 -45 Q -10 -65 -20 -70" fill="none" stroke="#C084FC" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 2 -45 Q 10 -65 20 -70" fill="none" stroke="#C084FC" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- Left Upper Wing -->
+    <path d="M 0 -30 C -60 -90 -120 -50 -70 10 C -40 25 0 0 0 -30 Z" fill="#0B0E14" stroke="#F3E8FF" stroke-width="2"/>
+    <path d="M -15 -35 Q -60 -60 -50 -10" fill="none" stroke="#C084FC" stroke-width="1.5"/>
+
+    <!-- Right Upper Wing -->
+    <path d="M 0 -30 C 60 -90 120 -50 70 10 C 40 25 0 0 0 -30 Z" fill="#0B0E14" stroke="#F3E8FF" stroke-width="2"/>
+    <path d="M 15 -35 Q 60 -60 50 -10" fill="none" stroke="#C084FC" stroke-width="1.5"/>
+
+    <!-- Lower Wings -->
+    <path d="M 0 0 C -60 20 -60 70 -20 60 Z" fill="#0B0E14" stroke="#F3E8FF" stroke-width="2"/>
+    <path d="M 0 0 C 60 20 60 70 20 60 Z" fill="#0B0E14" stroke="#F3E8FF" stroke-width="2"/>
+
+    <!-- Body -->
+    <line x1="0" y1="-40" x2="0" y2="40" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="300" y="372" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="middle" letter-spacing="2">
+    TATTOO FONTLAB • BEAUTIFUL TATTOOS HUB
+  </text>
+</svg>

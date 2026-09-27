@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#0A0C14" />
+  
+  <!-- Geometric Mandala Lines -->
+  <g transform="translate(300, 160)" fill="none" stroke="#60A5FA" stroke-width="1.5">
+    <circle r="90" />
+    <circle r="60" stroke="#A855F7" stroke-width="2" />
+    <polygon points="0,-90 77.94,45 -77.94,45" />
+    <polygon points="0,90 77.94,-45 -77.94,-45" stroke="#38BDF8" />
+    <circle r="25" fill="#0A0C14" stroke="#60A5FA" stroke-width="2" />
+    <circle r="8" fill="#A855F7" />
+  </g>
+
+  <!-- Clean Typography -->
+  <text x="300" y="290" font-family="'Inter', sans-serif" font-weight="900" font-size="28" fill="#F8FAFC" text-anchor="middle" letter-spacing="8">BALANCE</text>
+
+  <!-- Style Label Banner -->
+  <rect x="40" y="320" width="520" height="50" rx="16" fill="#0F172A" stroke="#334155" stroke-width="1.5" />
+  <text x="60" y="352" font-family="sans-serif" font-weight="900" font-size="20" fill="#FFFFFF" letter-spacing="1">GEOMETRIC TATTOO</text>
+  <text x="520" y="351" font-family="sans-serif" font-weight="700" font-size="12" fill="#38BDF8" text-anchor="end">MATHEMATICAL SYMMETRY</text>
+</svg>

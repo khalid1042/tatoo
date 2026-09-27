@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#0B0E14" />
+  
+  <!-- Minimalist Line Heart -->
+  <path d="M 300 130 C 260 80, 210 130, 300 200 C 390 130, 340 80, 300 130 Z" fill="none" stroke="#F43F5E" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Minimal Text -->
+  <text x="300" y="250" font-family="'Cinzel', 'Inter', serif" font-weight="400" font-size="36" fill="#F8FAFC" text-anchor="middle" letter-spacing="4">breathe.</text>
+
+  <!-- Style Label Banner -->
+  <rect x="40" y="320" width="520" height="50" rx="16" fill="#0F172A" stroke="#334155" stroke-width="1.5" />
+  <text x="60" y="352" font-family="sans-serif" font-weight="900" font-size="20" fill="#FFFFFF" letter-spacing="1">MINIMALIST TATTOO</text>
+  <text x="520" y="351" font-family="sans-serif" font-weight="700" font-size="12" fill="#F43F5E" text-anchor="end">RESTRAINED SIMPLICITY</text>
+</svg>
