@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { TattooStyleGallery } from '../components/TattooStyleGallery';
 import { TattooNameQuoteGallery } from '../components/TattooNameQuoteGallery';
-import { Sparkles, BookOpen, Layers, HelpCircle, ChevronDown, ChevronUp, Clock, ShieldCheck, ArrowRight, Type, Compass, Award } from 'lucide-react';
+import { Sparkles, Layers, HelpCircle, ChevronDown, ChevronUp, ShieldCheck, ArrowRight, Type, Compass, Award } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 
 interface TattooStylesPageProps {
