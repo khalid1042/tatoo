@@ -50,7 +50,7 @@ export const BeautifulTattoosPage: React.FC<BeautifulTattoosPageProps> = ({ onSe
     if (metaDesc) {
       metaDesc.setAttribute(
         'content',
-        'Explore beautiful tattoo ideas, designs, styles, lettering, symbols, and placement inspiration. Discover your favorite tattoo style and create personalized tattoo lettering.'
+        'Explore beautiful tattoo ideas, designs, styles, symbols & placement inspiration. Discover your favorite aesthetic & preview custom lettering online for free.'
       );
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
