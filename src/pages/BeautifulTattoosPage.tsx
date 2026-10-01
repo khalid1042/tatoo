@@ -50,7 +50,7 @@ export const BeautifulTattoosPage: React.FC<BeautifulTattoosPageProps> = ({ onSe
     if (metaDesc) {
       metaDesc.setAttribute(
         'content',
-        'Explore beautiful tattoo ideas, designs, styles, symbols & placement inspiration. Discover your favorite aesthetic & preview custom lettering online for free.'
+        'Explore 100+ beautiful tattoo ideas & designs. Browse fine line, floral & minimalist art, and preview custom tattoo lettering online for free.'
       );
     }
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -633,6 +633,61 @@ export const BeautifulTattoosPage: React.FC<BeautifulTattoosPageProps> = ({ onSe
               <span>{step}</span>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* 10.5 Tattoo Longevity & Aging Matrix */}
+      <section className="space-y-6 pt-6 border-t border-slate-800/80">
+        <div className="space-y-2">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-950/60 border border-purple-800/40 text-purple-300 text-xs font-bold">
+            <Info className="w-3.5 h-3.5 text-purple-400" />
+            <span>Tattoo Craftsmanship Guide</span>
+          </div>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
+            Tattoo Style Longevity &amp; Aging Guide
+          </h2>
+          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-3xl">
+            A truly beautiful tattoo isn't just stunning on day one—it stays clear, crisp, and legible over decades. Because ink pigment spreads slightly in the dermis layer over time, choosing the right size and line weight is essential.
+          </p>
+        </div>
+
+        <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/80">
+          <table className="w-full text-left text-xs text-slate-300">
+            <thead className="bg-slate-950 text-slate-200 text-xs uppercase tracking-wider font-extrabold border-b border-slate-800">
+              <tr>
+                <th className="py-3.5 px-4">Tattoo Style</th>
+                <th className="py-3.5 px-4">Aging Stability</th>
+                <th className="py-3.5 px-4">Min. Recommended Size</th>
+                <th className="py-3.5 px-4">Key Longevity Tip</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-800/70">
+              <tr className="hover:bg-slate-900/50">
+                <td className="py-3 px-4 font-bold text-white">Fine Line &amp; Micro-Realism</td>
+                <td className="py-3 px-4 text-amber-400 font-semibold">Moderate (Needs Care)</td>
+                <td className="py-3 px-4">2 - 3 Inches</td>
+                <td className="py-3 px-4 text-slate-400">Keep line spacing open so ink spreading doesn't blur details.</td>
+              </tr>
+              <tr className="hover:bg-slate-900/50">
+                <td className="py-3 px-4 font-bold text-white">Traditional &amp; Blackwork</td>
+                <td className="py-3 px-4 text-emerald-400 font-semibold">High (Extremely Durable)</td>
+                <td className="py-3 px-4">3+ Inches</td>
+                <td className="py-3 px-4 text-slate-400">Bold outlines hold structure for decades with minimal touch-ups.</td>
+              </tr>
+              <tr className="hover:bg-slate-900/50">
+                <td className="py-3 px-4 font-bold text-white">Cursive &amp; Script Lettering</td>
+                <td className="py-3 px-4 text-emerald-400 font-semibold">High (When Scaled)</td>
+                <td className="py-3 px-4">1.5 - 2 Inches per word</td>
+                <td className="py-3 px-4 text-slate-400">Avoid ultra-tiny fonts; test letter spacing in our live preview tool.</td>
+              </tr>
+              <tr className="hover:bg-slate-900/50">
+                <td className="py-3 px-4 font-bold text-white">Watercolor &amp; Soft Shading</td>
+                <td className="py-3 px-4 text-amber-400 font-semibold">Moderate</td>
+                <td className="py-3 px-4">4+ Inches</td>
+                <td className="py-3 px-4 text-slate-400">Pair soft color washes with dark structural anchor lines for lasting contrast.</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
 
